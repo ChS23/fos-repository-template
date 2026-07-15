@@ -13,9 +13,6 @@ REQUIRED = [
     'README.md',
     'LICENSE.md',
     'docs/rpd.md',
-    'docs/measurement-model.md',
-    'docs/krm-mapping.md',
-    'docs/final-assessment.md',
     'resources/README.md',
     'team/README.md',
 ]

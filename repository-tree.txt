@@ -5,10 +5,6 @@
 │   ├── README.md
 │   └── role-competency-matrix.csv
 ├── docs/
-│   ├── final-assessment.md
-│   ├── krm-mapping.md
-│   ├── krm-reference.md
-│   ├── measurement-model.md
 │   ├── quality-checklist.md
 │   ├── README.md
 │   └── rpd.md
