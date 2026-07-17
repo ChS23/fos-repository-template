@@ -1,0 +1,14 @@
+{
+  "target": "sales",
+  "features_used": [
+    "dow",
+    "month",
+    "promo_flag",
+    "lag_7",
+    "lag_14",
+    "roll_28_mean",
+    "store_format",
+    "category"
+  ],
+  "note": "модель обучена на признаках features_used"
+}
