@@ -1,29 +1,39 @@
 .
 ├── data/
-│   ├── competency-catalog.csv
 │   ├── krm-v3.0.xlsx
-│   ├── README.md
-│   └── role-competency-matrix.csv
+│   └── README.md
 ├── docs/
+│   ├── grading.md
 │   ├── quality-checklist.md
 │   ├── README.md
-│   ├── repository_example.pdf
 │   └── rpd.md
-├── Exam/
+├── M1-introduction/
+│   ├── attachments/
+│   │   └── .gitkeep
+│   ├── kim-1.5-feasibility.md
+│   └── README.md
+├── M2-requirements/
+│   ├── attachments/
+│   │   └── .gitkeep
+│   ├── kim-2.5-srs.md
+│   └── README.md
+├── M3-architecture/
+│   ├── attachments/
+│   │   └── .gitkeep
+│   ├── kim-3.4-architecture.md
+│   └── README.md
+├── M4-quality-assurance/
+│   ├── attachments/
+│   │   └── .gitkeep
+│   ├── kim-4.1-vv.md
+│   └── README.md
+├── Project/
 │   ├── attachments/
 │   │   └── .gitkeep
 │   └── README.md
-├── M1-module-name/
+├── Exam/
 │   ├── attachments/
 │   │   └── .gitkeep
-│   ├── kim-01-practical-work.md
-│   ├── README.md
-│   └── rubric-01.md
-├── M2-module-name/
-│   ├── attachments/
-│   │   └── .gitkeep
-│   ├── kim-01-practical-work.md
-│   ├── kim-01-template.md
 │   └── README.md
 ├── methodical-guidelines/
 │   ├── students/
@@ -32,12 +42,6 @@
 │   │   └── README.md
 │   ├── teachers-resources/
 │   │   └── README.md
-│   └── README.md
-├── other/
-│   └── README.md
-├── Project/
-│   ├── attachments/
-│   │   └── .gitkeep
 │   └── README.md
 ├── resources/
 │   ├── benchmarks/
@@ -64,11 +68,10 @@
 │   ├── images/
 │   │   └── .gitkeep
 │   └── README.md
-├── tools/
-│   ├── README.md
-│   └── validate_repository.py
+├── other/
+│   └── README.md
 ├── .gitignore
 ├── CONTRIBUTING.md
 ├── LICENSE.md
 ├── README.md
-└── validation-report.txt
+└── repository-tree.txt
