@@ -51,6 +51,13 @@
 │   ├── attachments/
 │   │   └── exam-ticket-template.md
 │   └── README.md
+├── tools/                              собственные инструменты сопровождения
+│   ├── validate_fos.py                 валидатор согласованности ФОС
+│   ├── generate_dataset.py             генератор вариантов данных для КИМ-4.5
+│   ├── ktu_calc.py                     расчёт коэффициента трудового участия
+│   └── README.md
+├── .github/workflows/
+│   └── validate.yml                    автоматическая проверка при изменениях
 ├── methodical-guidelines/
 │   ├── students/
 │   ├── teachers-assessment/
