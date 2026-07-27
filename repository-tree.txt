@@ -1,77 +1,78 @@
 .
-├── data/
-│   ├── krm-v3.0.xlsx
-│   └── README.md
 ├── docs/
-│   ├── grading.md
-│   ├── quality-checklist.md
 │   ├── README.md
-│   └── rpd.md
-├── M1-introduction/
+│   ├── rpd.md                          рабочая программа дисциплины
+│   ├── grading.md                      система итогового оценивания
+│   └── quality-checklist.md
+├── M1-introduction/                    модуль 1. Введение в системную инженерию
 │   ├── attachments/
-│   │   └── .gitkeep
+│   │   ├── business-context.md
+│   │   ├── interview-template.md
+│   │   └── feasibility-template.md
 │   ├── kim-1.5-feasibility.md
 │   └── README.md
-├── M2-requirements/
+├── M2-requirements/                    модуль 2. Управление требованиями
 │   ├── attachments/
-│   │   └── .gitkeep
+│   │   ├── req-template.md
+│   │   ├── feasibility-reference.md
+│   │   ├── generated-srs.md
+│   │   └── ci-check.py
 │   ├── kim-2.5-srs.md
 │   └── README.md
-├── M3-architecture/
+├── M3-architecture/                    модуль 3. Архитектура систем
 │   ├── attachments/
-│   │   └── .gitkeep
-│   ├── kim-3.4-architecture.md
+│   │   ├── srs-reference.md
+│   │   ├── generated-architecture.md
+│   │   ├── adr-template.md
+│   │   ├── platform-analysis-template.md
+│   │   ├── threat-checklist.md
+│   │   └── inspection-checklist.md
+│   ├── kim-3.5-architecture.md
 │   └── README.md
-├── M4-quality-assurance/
+├── M4-quality-assurance/               модуль 4. Качество, безопасность, сопровождение
 │   ├── attachments/
-│   │   └── .gitkeep
-│   ├── kim-4.1-vv.md
+│   │   ├── data/                       срезы данных для приёмки модели
+│   │   ├── model/                      модель и отчёт команды разработки
+│   │   ├── pmi-template.md
+│   │   ├── verdict-template.md
+│   │   └── dataset-spec.md
+│   ├── kim-4.5-vv.md
 │   └── README.md
-├── Project/
+├── Project/                            проектная работа
 │   ├── attachments/
-│   │   └── .gitkeep
+│   │   ├── project-calendar.md
+│   │   ├── peer-assessment-form.md
+│   │   ├── model-card-template.md
+│   │   ├── threat-model-template.md
+│   │   ├── partner-protocol-template.md
+│   │   └── defense-questions.md
 │   └── README.md
-├── Exam/
+├── Exam/                               промежуточная аттестация (экзамен)
 │   ├── attachments/
-│   │   └── .gitkeep
+│   │   └── exam-ticket-template.md
 │   └── README.md
 ├── methodical-guidelines/
 │   ├── students/
-│   │   └── README.md
 │   ├── teachers-assessment/
-│   │   └── README.md
 │   ├── teachers-resources/
-│   │   └── README.md
 │   └── README.md
 ├── resources/
 │   ├── benchmarks/
-│   │   └── README.md
 │   ├── datasets/
-│   │   └── README.md
 │   ├── llm-prompts/
-│   │   └── README.md
-│   ├── other/
-│   │   └── README.md
+│   ├── other/                          стандарты и нормативная база
 │   ├── papers/
-│   │   └── README.md
 │   ├── problem-banks/
-│   │   └── README.md
-│   ├── software/
-│   │   └── python-libs/
-│   │       └── README.md
+│   ├── software/python-libs/
 │   ├── test-banks/
-│   │   └── README.md
 │   ├── textbooks/
-│   │   └── README.md
+│   └── README.md
+├── data/
+│   ├── krm-v3.0.xlsx
 │   └── README.md
 ├── team/
-│   ├── images/
-│   │   └── .gitkeep
-│   └── README.md
 ├── other/
-│   └── README.md
-├── .gitignore
+├── README.md
 ├── CONTRIBUTING.md
 ├── LICENSE.md
-├── README.md
 └── repository-tree.txt
